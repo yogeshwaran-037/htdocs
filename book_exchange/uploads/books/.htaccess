@@ -1,0 +1,5 @@
+Options -ExecCGI
+AddType text/plain .php .php3 .php4 .php5 .phtml .phar
+<FilesMatch "\.(php|php3|php4|php5|phtml|phar)$">
+    Require all denied
+</FilesMatch>
